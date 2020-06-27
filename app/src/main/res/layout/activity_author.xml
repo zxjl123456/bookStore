@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_author"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/authorActivity_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/author_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="返回"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"/>
+    </androidx.appcompat.widget.Toolbar>
+   <ListView
+       android:id="@+id/author_list_activity"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:divider="@color/colorDivider"
+       android:dividerHeight="1dp"/>
+</LinearLayout>
